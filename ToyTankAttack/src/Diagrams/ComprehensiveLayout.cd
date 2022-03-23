@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Goals:&#xD;&#xA;- swap between cameras&#xD;&#xA;- better camera controls">
+    <Position X="5.377" Y="5.018" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Goals:&#xD;&#xA;- swap scenes (save and load?)">
+    <Position X="10.951" Y="5.817" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Game Object Properties:&#xD;&#xA;- more to come (e.g. Collidable, Inputable, etc.)">
+    <Position X="17.057" Y="3.268" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Asset Managers:&#xD;&#xA;- more to come">
+    <Position X="7.137" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="User manually calls Update and Draw right now --&gt; fix">
+    <Position X="11.192" Y="10.027" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="				USER CODE 	&#xD;&#xA;			______________________________">
+    <Position X="13.713" Y="7.922" Height="0.75" Width="5.008" />
+  </Comment>
+  <Class Name="Gemini">
+    <Position X="12.75" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="~Gemini" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="GameEnd" Hidden="true" />
+      <Method Name="GameInitialize" Hidden="true" />
+      <Method Name="Gemini" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="LoadContent" Hidden="true" />
+      <Method Name="LoadResources" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="UnLoadContent" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AYRAEAAAAAAAAwABAIAAAAhAAAAAAAAAYAAgAFAAAAY=</HashCode>
+      <FileName>Gemini Engine\Gemini.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TextureManager">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="~TextureManager" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privDelete" Hidden="true" />
+      <Method Name="privGet" Hidden="true" />
+      <Method Name="privLoad" Hidden="true" />
+      <Method Name="TextureManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAIAAABABAAAAARABAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Gemini Engine\TextureManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShaderManager">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="~ShaderManager" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privDelete" Hidden="true" />
+      <Method Name="privGet" Hidden="true" />
+      <Method Name="privLoad" Hidden="true" />
+      <Method Name="ShaderManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAICAARAAAAAAARAAAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Gemini Engine\ShaderManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ModelManager">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="~ModelManager" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="ModelManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privDelete" Hidden="true" />
+      <Method Name="privGet" Hidden="true" />
+      <Method Name="privLoad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAIAAQBAABAAAARAAAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Gemini Engine\ModelManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CameraManager">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="~CameraManager" Hidden="true" />
+      <Method Name="CameraManager" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAgAAAAAAgAAAAAAABAAAMAAAAAQAAgAAAiAAA=</HashCode>
+      <FileName>Gemini Engine\CameraManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SceneManager">
+    <Position X="10" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="~SceneManager" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SceneManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAAkAgAAAAAABAAAEAAAAAQQAgAAAEAAQ=</HashCode>
+      <FileName>Gemini Engine\SceneManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ptrCurrentScene" />
+      <Field Name="ptrInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Scene">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="~Scene" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Scene" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAwAAgAAAAAAAQAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneDemo">
+    <Position X="12.75" Y="9" Width="1.5" />
+    <Members>
+      <Method Name="~SceneDemo" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SceneDemo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAIgAAAAACAwAAAAAABAAAAAAAAAAAAAAgAAAAAEA=</HashCode>
+      <FileName>User Code\SceneDemo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="GOFrig" />
+      <Field Name="GOPlane" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Frigate" Collapsed="true">
+    <Position X="16" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwAAACAAAABAgAAAAAAgABAIAAAAAAAAAAgAAAAAAE=</HashCode>
+      <FileName>User Code\Frigate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldPlane" Collapsed="true">
+    <Position X="18.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>User Code\WorldPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Updatable">
+    <Position X="16" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\Updatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Drawable">
+    <Position X="18.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\Drawable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

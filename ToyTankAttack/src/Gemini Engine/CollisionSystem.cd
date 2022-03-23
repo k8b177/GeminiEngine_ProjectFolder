@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CollisionManager">
+    <Position X="4.5" Y="1.25" Width="2.75" />
+    <Members>
+      <Method Name="~CollisionManager" Hidden="true" />
+      <Method Name="CollisionManager" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQACADAAQAAAAAEAAggBAAAAgoACAAAQ=</HashCode>
+      <FileName>Gemini Engine\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestCommandBase" Collapsed="true">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAgAAAAAgAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\CollisionTestCommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestSelfCommand">
+    <Position X="3.5" Y="6.25" Width="2.75" />
+    <Members>
+      <Method Name="~CollisionTestSelfCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAwAAAAAIA=</HashCode>
+      <FileName>Gemini Engine\CollisionTestSelfCommand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pDispatch" />
+      <Field Name="pG" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionTestPairCommand">
+    <Position X="7.25" Y="6.75" Width="2.75" />
+    <Members>
+      <Method Name="~CollisionTestPairCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAwAEAAAIA=</HashCode>
+      <FileName>Gemini Engine\CollisionTestPairCommand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pDispatch" />
+      <Field Name="pG1" />
+      <Field Name="pG2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollidableGroup">
+    <Position X="7.75" Y="1.25" Width="2.75" />
+    <Members>
+      <Method Name="~CollidableGroup" Hidden="true" />
+      <Method Name="CollidableGroup" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAgAAAAAAAAAAQAAAAAAJAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\CollidableGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collidable">
+    <Position X="10.75" Y="2.5" Width="3" />
+    <Members>
+      <Method Name="~Collidable" Hidden="true" />
+      <Method Name="Collidable" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IEAAAAAAAAAAIAAAAABACAEAAAAAAQAAQHAgIAAAAAA=</HashCode>
+      <FileName>Gemini Engine\Collidable.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pRegistrationCmd" />
+      <Field Name="pDeregistrationCmd" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionRegistrationCommand">
+    <Position X="15.25" Y="2.75" Width="2.5" />
+    <Members>
+      <Method Name="~CollisionRegistrationCommand" Hidden="true" />
+      <Method Name="CollisionRegistrationCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAQAAAAAAAAQAAAAAAAAAAAgAAAgAAA=</HashCode>
+      <FileName>Gemini Engine\CollisionRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDeregistrationCommand">
+    <Position X="15.25" Y="4.75" Width="2.5" />
+    <Members>
+      <Method Name="~CollisionDeregistrationCommand" Hidden="true" />
+      <Method Name="CollisionDeregistrationCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAQAAAgAAAAQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\CollisionDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDispatchBase">
+    <Position X="10.75" Y="6" Width="2.25" />
+    <Members>
+      <Method Name="~CollisionDispatchBase" Hidden="true" />
+      <Method Name="CollisionDispatchBase" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\CollisionDispatchBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDispatch&lt;C1, C2&gt;">
+    <Position X="10.5" Y="7.5" Width="3" />
+    <Members>
+      <Method Name="~CollisionDispatch" Hidden="true" />
+      <Method Name="CollisionDispatch" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAhAAAAAAA=</HashCode>
+      <FileName>Gemini Engine\CollisionDispatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

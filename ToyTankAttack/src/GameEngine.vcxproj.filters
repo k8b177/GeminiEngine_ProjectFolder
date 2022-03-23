@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{aef3393e-06a5-4f08-bf4a-3b6be12d1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine">
+      <UniqueIdentifier>{07d8b59d-8147-4585-a2a2-b67f7b580436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Resources">
+      <UniqueIdentifier>{e266101b-0f06-4e8e-b6bf-c5dabd66394b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code">
+      <UniqueIdentifier>{67c36f2d-be52-4a2f-9600-20e544386fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Error Handling">
+      <UniqueIdentifier>{e98c2e50-ae0c-4845-9208-c718360fde10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini InitializeEnd">
+      <UniqueIdentifier>{14a7b597-6894-41fe-923e-fce5becbc78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Camera Manager">
+      <UniqueIdentifier>{6ee727dd-6ca5-4bd6-8a8f-b75b788380bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Scene Classes">
+      <UniqueIdentifier>{d8ab36b7-6ce7-4bd6-aba8-6cfab98302b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Game Object Classes">
+      <UniqueIdentifier>{0c3171ee-41b1-4f40-a27a-7d8bbd0b7207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Diagrams">
+      <UniqueIdentifier>{15c8c3c0-38c6-4f98-9749-fc0fa6776e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Scene Classes\Scene">
+      <UniqueIdentifier>{5c483bad-b597-4f45-ac20-261b58efce40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Scene Classes\SceneManager">
+      <UniqueIdentifier>{4f7153a7-2923-48f6-82f9-ada757718803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Scene Classes\SceneRegistrationBroker">
+      <UniqueIdentifier>{aa051df6-b149-4251-a00b-b1057a8d49ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Time Manager">
+      <UniqueIdentifier>{2d340de9-d001-4462-ace7-0f224ba19270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Scene Classes\SceneManager\Scene Change Commands">
+      <UniqueIdentifier>{c7b5fe77-adcb-4e71-99c8-54011df00036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Enums / Namespaces">
+      <UniqueIdentifier>{14538947-ab57-4b33-88e6-ab55a3f0b6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Math Tools">
+      <UniqueIdentifier>{0c4294f8-39b9-4105-8317-ec3f0742b51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Resource Managers">
+      <UniqueIdentifier>{22c1f103-35e2-4a72-9af8-04eda34e79ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Resource Managers\ModelManager">
+      <UniqueIdentifier>{95501d15-9660-4ba6-8818-9e926aa3cd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Resource Managers\ShaderManager">
+      <UniqueIdentifier>{b56674e4-1a07-42ab-a1a1-dcf204d1e633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Resource Managers\TextureManager">
+      <UniqueIdentifier>{20b59fc5-1c58-4aa9-93c9-2b23016e66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Sprite System">
+      <UniqueIdentifier>{32f4a9c9-baf1-48a3-bb5f-cf8273c190dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Sprite System\GeminiSprite">
+      <UniqueIdentifier>{ecc5a0bd-8a06-4beb-85e9-57ae2ec7608f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Resource Managers\ImageManager">
+      <UniqueIdentifier>{b75988a3-cb96-43b4-9f72-b67addc8d215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Resource Managers\SpriteFontManager">
+      <UniqueIdentifier>{f21d692c-1fde-4b8a-9248-95f6c8004052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Debug Tools">
+      <UniqueIdentifier>{95fbcba6-5f14-4cb0-b63f-27e81bbec557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Debug Tools\ScreenLog">
+      <UniqueIdentifier>{3519c3fc-d05d-480d-a3f9-e8e29fc53b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Debug Tools\Visualizer">
+      <UniqueIdentifier>{881b2c5a-13ab-497d-b679-0a7426662b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Debug Tools\Visualizer\Visualizer Commands">
+      <UniqueIdentifier>{423fa2c4-14b1-4c4c-a98e-bb1c2ca4dc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Debug Tools\Visualizer\VisualizerCommandPool">
+      <UniqueIdentifier>{12e44ba1-f528-4b7f-9ab9-e2c1f703f335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Doxygen Files">
+      <UniqueIdentifier>{1e6df83d-55bd-4796-a8c9-a8cfb6cd8e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Sprite System\SpriteString">
+      <UniqueIdentifier>{0dac8c02-c089-4c2f-997d-1dfa5a8f2cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Sprite System\SpriteFont">
+      <UniqueIdentifier>{40e5aadc-602c-47c0-a477-4373c917223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Demo Game">
+      <UniqueIdentifier>{308f3a48-dee0-451f-97cf-825c23a9f648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Demo Game\Decor">
+      <UniqueIdentifier>{e5b243cd-34b7-44ad-91da-ab2c888d1fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Demo Game\Player">
+      <UniqueIdentifier>{bbee0c41-21c9-485a-a7dd-67b07c963da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Demo Game\Enemies">
+      <UniqueIdentifier>{783ddca2-ffd7-4c97-9f4a-229883f44957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Demo Game\Managers / Controllers">
+      <UniqueIdentifier>{540236df-2db6-432e-a39a-15f73accf554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Demo Game\Scenes">
+      <UniqueIdentifier>{1b495a7a-bae0-498d-af92-52a75d4bacf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Updatable System">
+      <UniqueIdentifier>{a28064d7-6a06-4c1a-9853-ee467600bca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System">
+      <UniqueIdentifier>{8cae3970-9d00-4c8d-8e14-a9955194a1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\Collision Volumes">
+      <UniqueIdentifier>{29a00f6a-c66d-4f14-aa72-c02b2e85fea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\Collision Volumes\BSphere">
+      <UniqueIdentifier>{478fa791-33d3-489d-834f-865c8f249b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Alarmable System">
+      <UniqueIdentifier>{5a958d8d-129f-4395-a2e0-6e4675c2a6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Alarmable System\Alarmable">
+      <UniqueIdentifier>{bceaf96d-6ee7-4dd6-87f2-a0addf425365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Alarmable System\AlarmableManager">
+      <UniqueIdentifier>{3ea8b2e8-bc66-43a0-a5fa-4db5a158f301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Alarmable System\Registration / Deregistration Commands">
+      <UniqueIdentifier>{ed98210a-c613-4c0e-8839-644265e99508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Updatable System\Updatable">
+      <UniqueIdentifier>{9dafac5e-01f8-4c74-a4ce-7ae7f7b9ca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Updatable System\Registration / Deregistration Commands">
+      <UniqueIdentifier>{b7232bba-00df-4ba6-a879-6349a412270f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Updatable System\UpdatableManager">
+      <UniqueIdentifier>{1c7a20b2-3b80-44b6-b3d4-66d86da15cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\Registration / Deregistration Commands">
+      <UniqueIdentifier>{7c508531-cded-4de2-968a-d25e54409415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\CollidableGroup">
+      <UniqueIdentifier>{2e191bb0-919f-4854-84d2-de79182d38f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\CollisionDispatch">
+      <UniqueIdentifier>{8224608a-0053-4c44-a14d-c838bebaaea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\CollisionTestCommands">
+      <UniqueIdentifier>{823d4a93-b56f-4613-8b0d-b16c643ea1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\CollisionManager">
+      <UniqueIdentifier>{f0eb1bb6-7a58-4004-802f-ee89cb294b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Collidable System\Collidable">
+      <UniqueIdentifier>{3333e379-cad0-410f-8539-de96d3f24621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Drawable System">
+      <UniqueIdentifier>{fc696148-a492-4823-81a8-21b3799cd55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Drawable System\Registration / Deregistration Commands">
+      <UniqueIdentifier>{d768eb23-a0be-4149-877b-a3a8fec29f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Drawable System\Drawable">
+      <UniqueIdentifier>{3693ae97-f415-48af-b53f-3e73b163086e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Drawable System\DrawableManager">
+      <UniqueIdentifier>{1689b7c1-56b2-438e-9fa4-c47cb0ba5da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Inputable System">
+      <UniqueIdentifier>{ac4d6f0b-6c5b-4588-9fc6-b7c2403444e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Inputable System\KeyboardManagement Classes">
+      <UniqueIdentifier>{dc2565aa-7ecf-4564-a902-656692f2b6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Inputable System\Inputable">
+      <UniqueIdentifier>{345359c4-dd0d-4aa4-97be-75e02e6d43c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Inputable System\Registration / Deregistration Commands">
+      <UniqueIdentifier>{c93031c1-e3af-4d32-aed0-f1ad13eebf18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Game Object Classes\Registration/ Deregistration Commands">
+      <UniqueIdentifier>{5be88b19-d688-440e-80fb-e387346df4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Gemini">
+      <UniqueIdentifier>{4ee1a95a-cf12-4b0c-b4ba-ad51f9260897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Command Base">
+      <UniqueIdentifier>{440f3b5f-a022-4d4d-afc2-4460e81d1018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Debug Tools\GodCam">
+      <UniqueIdentifier>{1e7c2465-14a9-4295-ab2a-18d82404bb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Gemini Engine\Time Manager\Freeze Time">
+      <UniqueIdentifier>{1af0f717-b1d1-42bc-b2d3-68ba7b63756a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ErrorMessage.h">
+      <Filter>Application\Gemini Engine\Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ErrorType.h">
+      <Filter>Application\Gemini Engine\Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CameraManager.h">
+      <Filter>Application\Gemini Engine\Camera Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Scene.h">
+      <Filter>Application\Gemini Engine\Scene Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneManager.h">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneRegistrationBroker.h">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneRegistrationBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\RegistrationStateEnum.h">
+      <Filter>Application\Gemini Engine\Enums / Namespaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ModelManager.h">
+      <Filter>Application\Gemini Engine\Resource Managers\ModelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ModelManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Resource Managers\ModelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ShaderManager.h">
+      <Filter>Application\Gemini Engine\Resource Managers\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\TextureManager.h">
+      <Filter>Application\Gemini Engine\Resource Managers\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\TextureManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Resource Managers\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ShaderManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Resource Managers\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Alarmable.h">
+      <Filter>Application\Gemini Engine\Alarmable System\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Drawable.h">
+      <Filter>Application\Gemini Engine\Drawable System\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Updatable.h">
+      <Filter>Application\Gemini Engine\Updatable System\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\UpdatableAttorney.h">
+      <Filter>Application\Gemini Engine\Updatable System\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\AlarmableAttorney.h">
+      <Filter>Application\Gemini Engine\Alarmable System\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\DrawableAttorney.h">
+      <Filter>Application\Gemini Engine\Drawable System\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneAttorney.h">
+      <Filter>Application\Gemini Engine\Scene Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Inputable.h">
+      <Filter>Application\Gemini Engine\Inputable System\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\AlarmableManager.h">
+      <Filter>Application\Gemini Engine\Alarmable System\AlarmableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\DrawableManager.h">
+      <Filter>Application\Gemini Engine\Drawable System\DrawableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\UpdatableManager.h">
+      <Filter>Application\Gemini Engine\Updatable System\UpdatableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\KeyboardEventManager.h">
+      <Filter>Application\Gemini Engine\Inputable System\KeyboardManagement Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SingleKeyEventManager.h">
+      <Filter>Application\Gemini Engine\Inputable System\KeyboardManagement Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\InputableAttorney.h">
+      <Filter>Application\Gemini Engine\Inputable System\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\EVENT_TYPEEnum.h">
+      <Filter>Application\Gemini Engine\Enums / Namespaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GameObjectEntryCommand.h">
+      <Filter>Application\Gemini Engine\Game Object Classes\Registration/ Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GameObjectExitCommand.h">
+      <Filter>Application\Gemini Engine\Game Object Classes\Registration/ Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\TimeManager.h">
+      <Filter>Application\Gemini Engine\Time Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\TimeManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Time Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\FreezeTime.h">
+      <Filter>Application\Gemini Engine\Time Manager\Freeze Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneNull.h">
+      <Filter>Application\Gemini Engine\Scene Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneChangeNullCommand.h">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager\Scene Change Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneChangeCommandBase.h">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager\Scene Change Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SceneChangeCommand.h">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager\Scene Change Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionManager.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Collidable.h">
+      <Filter>Application\Gemini Engine\Collidable System\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollidableGroup.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollidableGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollidableAttorney.h">
+      <Filter>Application\Gemini Engine\Collidable System\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionTestCommandBase.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionTestCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionTestPairCommand.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionTestCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionTestSelfCommand.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionTestCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionDispatchBase.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionDispatch.h">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Colors.h">
+      <Filter>Application\Gemini Engine\Enums / Namespaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionVolume.h">
+      <Filter>Application\Gemini Engine\Collidable System\Collision Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionVolumeBSphere.h">
+      <Filter>Application\Gemini Engine\Collidable System\Collision Volumes\BSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\VisualizeCommandBase.h">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer\Visualizer Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\VisualizeBSphereCommand.h">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer\Visualizer Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GeminiMathTools.h">
+      <Filter>Application\Gemini Engine\Math Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ImageManager.h">
+      <Filter>Application\Gemini Engine\Resource Managers\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GeminiSprite.h">
+      <Filter>Application\Gemini Engine\Sprite System\GeminiSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ImageManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Resource Managers\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\DoxygenData.h">
+      <Filter>Application\Doxygen Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\VisualizeCommandPool.h">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer\VisualizerCommandPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SpriteFontManager.h">
+      <Filter>Application\Gemini Engine\Resource Managers\SpriteFontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SpriteFontManagerAttorney.h">
+      <Filter>Application\Gemini Engine\Resource Managers\SpriteFontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ScreenLog.h">
+      <Filter>Application\Gemini Engine\Debug Tools\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Visualizer.h">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\VisualizerAttorney.h">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\ScreenLogAttorney.h">
+      <Filter>Application\Gemini Engine\Debug Tools\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SpriteStringPool.h">
+      <Filter>Application\Gemini Engine\Debug Tools\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SpriteFont.h">
+      <Filter>Application\Gemini Engine\Sprite System\SpriteFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\SpriteString.h">
+      <Filter>Application\Gemini Engine\Sprite System\SpriteString</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Bed.h">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Bullet.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletFactory.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletObjectPool.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Enemy.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyBullet.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyBulletFactory.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyBulletObjectPool.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemySpawner.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\FloorPlane.h">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LegoBrick.h">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Player.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TeddyBear.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BombFactory.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BombObjectPool.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Bomb.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyPlaneSpawner.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyPlane.h">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\CameraController.h">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\GameManager.h">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\HUDManager.h">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LevelEnum.h">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SecondScene.h">
+      <Filter>Application\User Code\Demo Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\MainScene.h">
+      <Filter>Application\User Code\Demo Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Obstacle.h">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Tank.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ToyPlane.h">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\AlarmDeregistrationCommand.h">
+      <Filter>Application\Gemini Engine\Alarmable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\AlarmRegistrationCommand.h">
+      <Filter>Application\Gemini Engine\Alarmable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\UpdateDeregistrationCommand.h">
+      <Filter>Application\Gemini Engine\Updatable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\UpdateRegistrationCommand.h">
+      <Filter>Application\Gemini Engine\Updatable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionDeregistrationCommand.h">
+      <Filter>Application\Gemini Engine\Collidable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CollisionRegistrationCommand.h">
+      <Filter>Application\Gemini Engine\Collidable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\DrawDeregistrationCommand.h">
+      <Filter>Application\Gemini Engine\Drawable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\DrawRegistrationCommand.h">
+      <Filter>Application\Gemini Engine\Drawable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GameObject.h">
+      <Filter>Application\Gemini Engine\Game Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GameObjectAttorney.h">
+      <Filter>Application\Gemini Engine\Game Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\KeyDeregistrationCommand.h">
+      <Filter>Application\Gemini Engine\Inputable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\KeyRegistrationCommand.h">
+      <Filter>Application\Gemini Engine\Inputable System\Registration / Deregistration Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\CommandBase.h">
+      <Filter>Application\Gemini Engine\Command Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\Gemini.h">
+      <Filter>Application\Gemini Engine\Gemini</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GeminiAttorney.h">
+      <Filter>Application\Gemini Engine\Gemini</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GodCamController.h">
+      <Filter>Application\Gemini Engine\Debug Tools\GodCam</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GodCam.h">
+      <Filter>Application\Gemini Engine\Debug Tools\GodCam</Filter>
+    </ClInclude>
+    <ClInclude Include="Gemini Engine\GodCamControllerAttorney.h">
+      <Filter>Application\Gemini Engine\Debug Tools\GodCam</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gemini Engine\main.cpp">
+      <Filter>Application\Gemini Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\ErrorMessage.cpp">
+      <Filter>Application\Gemini Engine\Error Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Resources\LoadResources.cpp">
+      <Filter>Application\Gemini Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini InitializeEnd\GameEnd.cpp">
+      <Filter>Application\Gemini InitializeEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini InitializeEnd\GameInitialize.cpp">
+      <Filter>Application\Gemini InitializeEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CameraManager.cpp">
+      <Filter>Application\Gemini Engine\Camera Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Scene.cpp">
+      <Filter>Application\Gemini Engine\Scene Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SceneManager.cpp">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SceneRegistrationBroker.cpp">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneRegistrationBroker</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\ModelManager.cpp">
+      <Filter>Application\Gemini Engine\Resource Managers\ModelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\ShaderManager.cpp">
+      <Filter>Application\Gemini Engine\Resource Managers\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\TextureManager.cpp">
+      <Filter>Application\Gemini Engine\Resource Managers\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Alarmable.cpp">
+      <Filter>Application\Gemini Engine\Alarmable System\Alarmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Drawable.cpp">
+      <Filter>Application\Gemini Engine\Drawable System\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Updatable.cpp">
+      <Filter>Application\Gemini Engine\Updatable System\Updatable</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Inputable.cpp">
+      <Filter>Application\Gemini Engine\Inputable System\Inputable</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\AlarmableManager.cpp">
+      <Filter>Application\Gemini Engine\Alarmable System\AlarmableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\DrawableManager.cpp">
+      <Filter>Application\Gemini Engine\Drawable System\DrawableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\UpdatableManager.cpp">
+      <Filter>Application\Gemini Engine\Updatable System\UpdatableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\KeyboardEventManager.cpp">
+      <Filter>Application\Gemini Engine\Inputable System\KeyboardManagement Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SingleKeyEventManager.cpp">
+      <Filter>Application\Gemini Engine\Inputable System\KeyboardManagement Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GameObjectEntryCommand.cpp">
+      <Filter>Application\Gemini Engine\Game Object Classes\Registration/ Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GameObjectExitCommand.cpp">
+      <Filter>Application\Gemini Engine\Game Object Classes\Registration/ Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\TimeManager.cpp">
+      <Filter>Application\Gemini Engine\Time Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\FreezeTime.cpp">
+      <Filter>Application\Gemini Engine\Time Manager\Freeze Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SceneChangeCommand.cpp">
+      <Filter>Application\Gemini Engine\Scene Classes\SceneManager\Scene Change Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionManager.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Collidable.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollidableGroup.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\CollidableGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionTestPairCommand.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionTestCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionTestSelfCommand.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionTestCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionDispatch.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionVolumeBSphere.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\Collision Volumes\BSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\VisualizeBSphereCommand.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer\Visualizer Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GeminiMathTools.cpp">
+      <Filter>Application\Gemini Engine\Math Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\ImageManager.cpp">
+      <Filter>Application\Gemini Engine\Resource Managers\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GeminiSprite.cpp">
+      <Filter>Application\Gemini Engine\Sprite System\GeminiSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\VisualizeCommandPool.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer\VisualizerCommandPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SpriteFontManager.cpp">
+      <Filter>Application\Gemini Engine\Resource Managers\SpriteFontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\ScreenLog.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\ScreenLog</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Visualizer.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SpriteStringPool.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\ScreenLog</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SpriteFont.cpp">
+      <Filter>Application\Gemini Engine\Sprite System\SpriteFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\SpriteString.cpp">
+      <Filter>Application\Gemini Engine\Sprite System\SpriteString</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Bed.cpp">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Bullet.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletFactory.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletObjectPool.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Enemy.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyBullet.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyBulletFactory.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyBulletObjectPool.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemySpawner.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\FloorPlane.cpp">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LegoBrick.cpp">
+      <Filter>Application\User Code\Demo Game\Decor</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TeddyBear.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BombFactory.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BombObjectPool.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Bomb.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyPlaneSpawner.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyPlane.cpp">
+      <Filter>Application\User Code\Demo Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\CameraController.cpp">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\GameManager.cpp">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\HUDManager.cpp">
+      <Filter>Application\User Code\Demo Game\Managers / Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SecondScene.cpp">
+      <Filter>Application\User Code\Demo Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\MainScene.cpp">
+      <Filter>Application\User Code\Demo Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Tank.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ToyPlane.cpp">
+      <Filter>Application\User Code\Demo Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\AlarmDeregistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Alarmable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\AlarmRegistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Alarmable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\UpdateDeregistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Updatable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\UpdateRegistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Updatable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionDeregistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\CollisionRegistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Collidable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\DrawDeregistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Drawable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\DrawRegistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Drawable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GameObject.cpp">
+      <Filter>Application\Gemini Engine\Game Object Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\KeyDeregistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Inputable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\KeyRegistrationCommand.cpp">
+      <Filter>Application\Gemini Engine\Inputable System\Registration / Deregistration Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\Gemini.cpp">
+      <Filter>Application\Gemini Engine\Gemini</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GodCamController.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\GodCam</Filter>
+    </ClCompile>
+    <ClCompile Include="Gemini Engine\GodCam.cpp">
+      <Filter>Application\Gemini Engine\Debug Tools\GodCam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrams\ComprehensiveLayout.cd">
+      <Filter>Application\Diagrams</Filter>
+    </None>
+    <None Include="Gemini Engine\CollisionSystem.cd">
+      <Filter>Application\Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

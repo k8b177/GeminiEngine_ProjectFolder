@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>GameEngine</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions); WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)"; MEMORY_LOGS_DIR=R"($(SolutionDir))"; </PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\File\include;$(SolutionDir)dist\AzulCore\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <ForcedIncludeFiles>"$(ProjectDir)/MemTracker/Framework.h"</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>xmllite.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h" />
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Image.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h" />
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Model.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h" />
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h" />
+    <ClInclude Include="..\dist\File\include\File.h" />
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\dist\Math\include\Align16.h" />
+    <ClInclude Include="..\dist\Math\include\Constants.h" />
+    <ClInclude Include="..\dist\Math\include\Enum.h" />
+    <ClInclude Include="..\dist\Math\include\MathApp.h" />
+    <ClInclude Include="..\dist\Math\include\MathEngine.h" />
+    <ClInclude Include="..\dist\Math\include\Matrix.h" />
+    <ClInclude Include="..\dist\Math\include\Quat.h" />
+    <ClInclude Include="..\dist\Math\include\QuatApp.h" />
+    <ClInclude Include="..\dist\Math\include\Util.h" />
+    <ClInclude Include="..\dist\Math\include\Vect.h" />
+    <ClInclude Include="..\dist\Math\include\VectApp.h" />
+    <ClInclude Include="..\dist\SB6\include\arcball.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h" />
+    <ClInclude Include="..\dist\SB6\include\object.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h" />
+    <ClInclude Include="..\dist\SB6\include\shader.h" />
+    <ClInclude Include="..\dist\SB6\include\vmath.h" />
+    <ClInclude Include="Gemini Engine\Alarmable.h" />
+    <ClInclude Include="Gemini Engine\AlarmableAttorney.h" />
+    <ClInclude Include="Gemini Engine\AlarmableManager.h" />
+    <ClInclude Include="Gemini Engine\AlarmDeregistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\AlarmRegistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\CameraManager.h" />
+    <ClInclude Include="Gemini Engine\Collidable.h" />
+    <ClInclude Include="Gemini Engine\CollidableAttorney.h" />
+    <ClInclude Include="Gemini Engine\CollidableGroup.h" />
+    <ClInclude Include="Gemini Engine\CollisionDeregistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\CollisionDispatch.h" />
+    <ClInclude Include="Gemini Engine\CollisionDispatchBase.h" />
+    <ClInclude Include="Gemini Engine\CollisionManager.h" />
+    <ClInclude Include="Gemini Engine\CollisionRegistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\CollisionTestCommandBase.h" />
+    <ClInclude Include="Gemini Engine\CollisionTestPairCommand.h" />
+    <ClInclude Include="Gemini Engine\CollisionTestSelfCommand.h" />
+    <ClInclude Include="Gemini Engine\CollisionVolume.h" />
+    <ClInclude Include="Gemini Engine\CollisionVolumeBSphere.h" />
+    <ClInclude Include="Gemini Engine\Colors.h" />
+    <ClInclude Include="Gemini Engine\CommandBase.h" />
+    <ClInclude Include="Gemini Engine\DoxygenData.h" />
+    <ClInclude Include="Gemini Engine\Drawable.h" />
+    <ClInclude Include="Gemini Engine\DrawableAttorney.h" />
+    <ClInclude Include="Gemini Engine\DrawableManager.h" />
+    <ClInclude Include="Gemini Engine\DrawDeregistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\DrawRegistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\ErrorMessage.h" />
+    <ClInclude Include="Gemini Engine\ErrorType.h" />
+    <ClInclude Include="Gemini Engine\EVENT_TYPEEnum.h" />
+    <ClInclude Include="Gemini Engine\FreezeTime.h" />
+    <ClInclude Include="Gemini Engine\GameObject.h" />
+    <ClInclude Include="Gemini Engine\GameObjectAttorney.h" />
+    <ClInclude Include="Gemini Engine\GameObjectEntryCommand.h" />
+    <ClInclude Include="Gemini Engine\GameObjectExitCommand.h" />
+    <ClInclude Include="Gemini Engine\Gemini.h" />
+    <ClInclude Include="Gemini Engine\GeminiAttorney.h" />
+    <ClInclude Include="Gemini Engine\GeminiMathTools.h" />
+    <ClInclude Include="Gemini Engine\GeminiSprite.h" />
+    <ClInclude Include="Gemini Engine\GodCam.h" />
+    <ClInclude Include="Gemini Engine\GodCamController.h" />
+    <ClInclude Include="Gemini Engine\GodCamControllerAttorney.h" />
+    <ClInclude Include="Gemini Engine\ImageManager.h" />
+    <ClInclude Include="Gemini Engine\ImageManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\Inputable.h" />
+    <ClInclude Include="Gemini Engine\InputableAttorney.h" />
+    <ClInclude Include="Gemini Engine\KeyboardEventManager.h" />
+    <ClInclude Include="Gemini Engine\KeyDeregistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\KeyRegistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\ModelManager.h" />
+    <ClInclude Include="Gemini Engine\ModelManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\RegistrationStateEnum.h" />
+    <ClInclude Include="Gemini Engine\Scene.h" />
+    <ClInclude Include="Gemini Engine\SceneAttorney.h" />
+    <ClInclude Include="Gemini Engine\SceneChangeCommand.h" />
+    <ClInclude Include="Gemini Engine\SceneChangeCommandBase.h" />
+    <ClInclude Include="Gemini Engine\SceneChangeNullCommand.h" />
+    <ClInclude Include="Gemini Engine\SceneManager.h" />
+    <ClInclude Include="Gemini Engine\SceneManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\SceneNull.h" />
+    <ClInclude Include="Gemini Engine\SceneRegistrationBroker.h" />
+    <ClInclude Include="Gemini Engine\ScreenLog.h" />
+    <ClInclude Include="Gemini Engine\ScreenLogAttorney.h" />
+    <ClInclude Include="Gemini Engine\ShaderManager.h" />
+    <ClInclude Include="Gemini Engine\ShaderManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\SingleKeyEventManager.h" />
+    <ClInclude Include="Gemini Engine\SpriteFont.h" />
+    <ClInclude Include="Gemini Engine\SpriteFontManager.h" />
+    <ClInclude Include="Gemini Engine\SpriteFontManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\SpriteString.h" />
+    <ClInclude Include="Gemini Engine\SpriteStringPool.h" />
+    <ClInclude Include="Gemini Engine\TextureManager.h" />
+    <ClInclude Include="Gemini Engine\TextureManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\TimeManager.h" />
+    <ClInclude Include="Gemini Engine\TimeManagerAttorney.h" />
+    <ClInclude Include="Gemini Engine\Updatable.h" />
+    <ClInclude Include="Gemini Engine\UpdatableAttorney.h" />
+    <ClInclude Include="Gemini Engine\UpdatableManager.h" />
+    <ClInclude Include="Gemini Engine\UpdateDeregistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\UpdateRegistrationCommand.h" />
+    <ClInclude Include="Gemini Engine\VisualizeBSphereCommand.h" />
+    <ClInclude Include="Gemini Engine\VisualizeCommandPool.h" />
+    <ClInclude Include="Gemini Engine\Visualizer.h" />
+    <ClInclude Include="Gemini Engine\VisualizerAttorney.h" />
+    <ClInclude Include="Gemini Engine\VisualizeCommandBase.h" />
+    <ClInclude Include="User Code\Bed.h" />
+    <ClInclude Include="User Code\Bomb.h" />
+    <ClInclude Include="User Code\BombFactory.h" />
+    <ClInclude Include="User Code\BombObjectPool.h" />
+    <ClInclude Include="User Code\Bullet.h" />
+    <ClInclude Include="User Code\BulletFactory.h" />
+    <ClInclude Include="User Code\BulletObjectPool.h" />
+    <ClInclude Include="User Code\CameraController.h" />
+    <ClInclude Include="User Code\Enemy.h" />
+    <ClInclude Include="User Code\EnemyBullet.h" />
+    <ClInclude Include="User Code\EnemyBulletFactory.h" />
+    <ClInclude Include="User Code\EnemyBulletObjectPool.h" />
+    <ClInclude Include="User Code\EnemyPlane.h" />
+    <ClInclude Include="User Code\EnemyPlaneSpawner.h" />
+    <ClInclude Include="User Code\EnemySpawner.h" />
+    <ClInclude Include="User Code\FloorPlane.h" />
+    <ClInclude Include="User Code\GameManager.h" />
+    <ClInclude Include="User Code\LevelEnum.h" />
+    <ClInclude Include="User Code\HUDManager.h" />
+    <ClInclude Include="User Code\LegoBrick.h" />
+    <ClInclude Include="User Code\MainScene.h" />
+    <ClInclude Include="User Code\Obstacle.h" />
+    <ClInclude Include="User Code\Player.h" />
+    <ClInclude Include="User Code\ToyPlane.h" />
+    <ClInclude Include="User Code\SecondScene.h" />
+    <ClInclude Include="User Code\Tank.h" />
+    <ClInclude Include="User Code\TeddyBear.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib" />
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gemini Engine\Alarmable.cpp" />
+    <ClCompile Include="Gemini Engine\AlarmableManager.cpp" />
+    <ClCompile Include="Gemini Engine\AlarmDeregistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\AlarmRegistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\CameraManager.cpp" />
+    <ClCompile Include="Gemini Engine\Collidable.cpp" />
+    <ClCompile Include="Gemini Engine\CollidableGroup.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionDeregistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionDispatch.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionManager.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionRegistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionTestPairCommand.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionTestSelfCommand.cpp" />
+    <ClCompile Include="Gemini Engine\CollisionVolumeBSphere.cpp" />
+    <ClCompile Include="Gemini Engine\Drawable.cpp" />
+    <ClCompile Include="Gemini Engine\DrawableManager.cpp" />
+    <ClCompile Include="Gemini Engine\DrawDeregistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\DrawRegistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\ErrorMessage.cpp" />
+    <ClCompile Include="Gemini Engine\FreezeTime.cpp" />
+    <ClCompile Include="Gemini Engine\GameObject.cpp" />
+    <ClCompile Include="Gemini Engine\GameObjectEntryCommand.cpp" />
+    <ClCompile Include="Gemini Engine\GameObjectExitCommand.cpp" />
+    <ClCompile Include="Gemini Engine\Gemini.cpp" />
+    <ClCompile Include="Gemini Engine\GeminiMathTools.cpp" />
+    <ClCompile Include="Gemini Engine\GeminiSprite.cpp" />
+    <ClCompile Include="Gemini Engine\GodCam.cpp" />
+    <ClCompile Include="Gemini Engine\GodCamController.cpp" />
+    <ClCompile Include="Gemini Engine\ImageManager.cpp" />
+    <ClCompile Include="Gemini Engine\Inputable.cpp" />
+    <ClCompile Include="Gemini Engine\KeyboardEventManager.cpp" />
+    <ClCompile Include="Gemini Engine\KeyDeregistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\KeyRegistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\main.cpp" />
+    <ClCompile Include="Gemini Engine\ModelManager.cpp" />
+    <ClCompile Include="Gemini Engine\Scene.cpp" />
+    <ClCompile Include="Gemini Engine\SceneChangeCommand.cpp" />
+    <ClCompile Include="Gemini Engine\SceneManager.cpp" />
+    <ClCompile Include="Gemini Engine\SceneRegistrationBroker.cpp" />
+    <ClCompile Include="Gemini Engine\ScreenLog.cpp" />
+    <ClCompile Include="Gemini Engine\ShaderManager.cpp" />
+    <ClCompile Include="Gemini Engine\SingleKeyEventManager.cpp" />
+    <ClCompile Include="Gemini Engine\SpriteFont.cpp" />
+    <ClCompile Include="Gemini Engine\SpriteFontManager.cpp" />
+    <ClCompile Include="Gemini Engine\SpriteString.cpp" />
+    <ClCompile Include="Gemini Engine\SpriteStringPool.cpp" />
+    <ClCompile Include="Gemini Engine\TextureManager.cpp" />
+    <ClCompile Include="Gemini Engine\TimeManager.cpp" />
+    <ClCompile Include="Gemini Engine\Updatable.cpp" />
+    <ClCompile Include="Gemini Engine\UpdatableManager.cpp" />
+    <ClCompile Include="Gemini Engine\UpdateDeregistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\UpdateRegistrationCommand.cpp" />
+    <ClCompile Include="Gemini Engine\VisualizeBSphereCommand.cpp" />
+    <ClCompile Include="Gemini Engine\VisualizeCommandPool.cpp" />
+    <ClCompile Include="Gemini Engine\Visualizer.cpp" />
+    <ClCompile Include="Gemini InitializeEnd\GameEnd.cpp" />
+    <ClCompile Include="Gemini InitializeEnd\GameInitialize.cpp" />
+    <ClCompile Include="Gemini Resources\LoadResources.cpp" />
+    <ClCompile Include="User Code\Bed.cpp" />
+    <ClCompile Include="User Code\Bomb.cpp" />
+    <ClCompile Include="User Code\BombFactory.cpp" />
+    <ClCompile Include="User Code\BombObjectPool.cpp" />
+    <ClCompile Include="User Code\Bullet.cpp" />
+    <ClCompile Include="User Code\BulletFactory.cpp" />
+    <ClCompile Include="User Code\BulletObjectPool.cpp" />
+    <ClCompile Include="User Code\CameraController.cpp" />
+    <ClCompile Include="User Code\Enemy.cpp" />
+    <ClCompile Include="User Code\EnemyBullet.cpp" />
+    <ClCompile Include="User Code\EnemyBulletFactory.cpp" />
+    <ClCompile Include="User Code\EnemyBulletObjectPool.cpp" />
+    <ClCompile Include="User Code\EnemyPlane.cpp" />
+    <ClCompile Include="User Code\EnemyPlaneSpawner.cpp" />
+    <ClCompile Include="User Code\EnemySpawner.cpp" />
+    <ClCompile Include="User Code\FloorPlane.cpp" />
+    <ClCompile Include="User Code\GameManager.cpp" />
+    <ClCompile Include="User Code\HUDManager.cpp" />
+    <ClCompile Include="User Code\LegoBrick.cpp" />
+    <ClCompile Include="User Code\MainScene.cpp" />
+    <ClCompile Include="User Code\ToyPlane.cpp" />
+    <ClCompile Include="User Code\SecondScene.cpp" />
+    <ClCompile Include="User Code\Tank.cpp" />
+    <ClCompile Include="User Code\TeddyBear.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrams\ComprehensiveLayout.cd" />
+    <None Include="Gemini Engine\CollisionSystem.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
