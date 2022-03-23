@@ -1,0 +1,6 @@
+GeminiEngine_Projects Description:
+  This repository contains code for my 3D C++ game engine, Gemini Engine, and code for demo games built with the engine.
+
+- ToyTankAttack: 
+  ****Navigate to ToyTankAttack/src/GeminiEngine to see the code for my engine.
+  ****Navigate to ToyTankAttack/src/UserCode to see the code for the demo game (how a user would utilize my engine code to make a game)
